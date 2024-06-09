@@ -41,9 +41,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation ("androidx.compose.ui:ui:1.4.0")
-    implementation ("androidx.compose.material:material:1.4.0")
-    implementation ("androidx.compose.ui:ui-tooling-preview:1.4.0")
+    implementation ("androidx.compose.ui:ui:1.6.7")
+    //implementation ("androidx.compose.material:material:1.6.7")
+    implementation ("androidx.compose.ui:ui-tooling-preview:1.6.7")
     implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.5.0")
     implementation ("androidx.activity:activity-compose:1.7.0")
 
@@ -53,5 +53,5 @@ dependencies {
     implementation("androidx.navigation:navigation-common-ktx:2.7.7")
     implementation(project(":domain"))
 
-    implementation ("com.google.code.gson:gson:2.8.2")
+    implementation ("com.google.code.gson:gson:2.10.1")
 }
